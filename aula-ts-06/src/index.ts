@@ -1,5 +1,5 @@
 
-type Game = {
+type Game6 = {
     id: number,
     platform: {
         id: number,
@@ -10,7 +10,7 @@ type Game = {
     launch: Date | string
 }
 
-const game: Game = {
+const game6: Game6 = {
     id: 1,
     platform: {
         id: 1,
@@ -21,10 +21,10 @@ const game: Game = {
     launch: "2013-06-14" // pode ser um Date. É opcional (para jogos ainda não lançados).
 }
 
-const games: Game[] = [game];
+const games6: Game6[] = [game];
 
-function play(game: Game): void {
+function play6(game: Game6): void {
     // runs the game
-    console.log(game);
+    console.log(game6);
 }
-play(game);
+play(game6);
