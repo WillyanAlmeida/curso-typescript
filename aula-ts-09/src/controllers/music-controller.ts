@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import musicService from "../services/music-service";
+import { Music } from "protocols";
 
 function getMusics(req: Request, res: Response) {
   const musics = musicService.getMusics();
